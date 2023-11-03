@@ -1,0 +1,167 @@
+body {
+  background: linear-gradient(
+    rgba(195, 55, 100, 1) 0%,
+    rgb(86, 38, 146) 30%,
+    rgb(105, 46, 150) 100%
+  );
+}
+/* Gaya navbar saat awal */
+.navbar-scrolled {
+  background-color: transparent !important;
+}
+
+/* Gaya teks navbar saat awal */
+.navbar-scrolled .navbar-brand,
+.navbar-scrolled .navbar-nav .nav-link {
+  color: rgba(195, 55, 100, 1) !important;
+}
+
+/* Gaya teks navbar saat awal */
+.navbar-scrolled .navbar-brand,
+.navbar-scrolled .navbar-nav .nav-link {
+  color: white !important;
+}
+
+/* Gaya teks navbar saat di-scroll */
+.navbar-scrolled.scrolled .navbar-brand,
+.navbar-scrolled.scrolled .navbar-nav .nav-link {
+  color: #333 !important;
+}
+
+/* Gaya navbar saat di-scroll */
+.navbar-scrolled.scrolled {
+  background-color: #fffffff5 !important;
+}
+
+.navbar-header a {
+  padding-left: -100px;
+}
+
+.nav-custom {
+  font-family: 'Unbounded', sans-serif;
+}
+
+.home {
+  padding-top: 55px;
+}
+
+.home h2 {
+  font-family: 'Young Serif', serif;
+}
+
+.home h6 {
+  font-family: Poiret One;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 80px;
+}
+
+.profile h2 {
+  margin-top: 40px;
+  color: white;
+}
+
+.profile h6 {
+  margin-top: 20px;
+  color: white;
+  margin-bottom: 70px;
+}
+
+.profileImg {
+  width: 200px;
+}
+
+.row {
+  padding: 0px 30px;
+}
+
+.biodata {
+  background: linear-gradient(
+    rgb(134, 101, 255) 0%,
+    rgba(140, 87, 255, 0.556) 30%,
+    rgba(130, 75, 172, 0.87) 70%,
+    rgba(172, 75, 158, 0.87) 100%
+  );
+}
+
+.gelombang {
+  margin-top: -10px;
+}
+
+.Pargrf-about p {
+  padding-bottom: 10px;
+  font-family: 'Electrolize';
+}
+
+.Pargrf-about h4 {
+  font-family: 'Electrolize';
+}
+
+.Pargrf-P {
+  padding-top: 58px;
+}
+
+.Pargrf-about {
+  padding-left: 6%;
+  font-family: 'Mooli', sans-serif;
+}
+
+.paragraf {
+  margin-bottom: 200px;
+}
+
+.portofolio {
+  margin-top: -1;
+  padding-top: 130px;
+  background: linear-gradient(
+    rgba(172, 75, 158, 0.87) 0%,
+    rgba(204, 124, 191, 0.733) 70%,
+    rgb(210, 155, 200) 100%
+  );
+  padding-bottom: 90px;
+}
+
+.portofolio h4 {
+  margin-top: -15px;
+  margin-bottom: 40px;
+  font-family: 'Electrolize';
+}
+
+.portofolio p {
+  font-family: 'Electrolize';
+}
+
+.card-body .hidden {
+  display: none;
+}
+
+.footer {
+  margin-top: -90.2px;
+  padding-top: 85px;
+  background-color: #ffffff;
+  padding-bottom: 50px;
+}
+
+.footer h2 {
+  padding-top: -300px;
+  font-family: 'Electrolize';
+  padding-top: 200px;
+}
+
+.contact a {
+  color: black;
+  font-size: 20px;
+}
+
+.contact {
+  padding-bottom: 60px;
+}
+
+.footer p {
+  margin-bottom: -10px;
+}
